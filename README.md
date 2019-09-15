@@ -4,6 +4,8 @@ This code is based on the heppy repository made by Colin Bernet: https://github.
 
 The ttbar project was started by Nicolò Foppiani: https://github.com/nfoppiani/heppy
 
+My thesis with the full analysis can be found at: http://web.iihe.ac.be/publications.php
+
 The general structure of the project is as follows:
 Modules are created in the analzers/ directory,
 then called in various sequences in the sequences/ directory.
