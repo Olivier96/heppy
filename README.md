@@ -27,22 +27,34 @@ You now have data ready to analyse and produce plots.
 A bunch of useful python scripts for ROOT can be found in the ttbar_analysis/ANALYSIS/ directory.
 
 -chain_loop: produce ROOT histograms of the data passing through the chi2 analysis
+
 -collect_trees: move files into convenient locations, also contains all calls necessary for steps 1-8 above inside comments to give an overview
+
 -cut_flow: produce a cut flow table after the chain_loop is executed, this part does the logic
+
 -generate_scales: gathers the amount of events in order to scale the data, can also be used to get cross-section values for different top quark masses
+
 -get_chain: Obtain a ROOT TChain object from root files
+
 -layered_histos: Produce nice looking stacked histograms figures using functions provided
+
 -nice_graphs: Produce nice looking graphs, also contains a few specific functions for cross-section plots at the end
+
 -nice_histo: Produce a single histogram figure
+
 -nice_table: Produce tables for latex documents, also contains the functions to produce other relevant tables: yield, purity, cut_flow, statistical uncertainty on cross section, efficiency
 
 -scan_selection: This is a large file that was used to produce the full analysis presented in the thesis see at the top. This file makes use of all the helper files mentioned above. It is self documented but a bit messy. I would recommend looking at it only as a guide in order to see how to call the useful helper functions. 
 
 deprecated:
 -CHAIN
+
 -CHAIN2
+
 -chain_simple
+
 -chain_selection
+
 -histo_properties
 
 
