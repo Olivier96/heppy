@@ -1,0 +1,8 @@
+[ libASImage.dll ]
+# List of selected classes
+class TASImage
+class TASImagePlugin
+class TASPluginGS
+header TASImage.h
+header TASImagePlugin.h
+header TASPluginGS.h

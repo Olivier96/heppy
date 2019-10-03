@@ -1,0 +1,182 @@
+{ decls }
+namespace std {  }
+template <typename TT> class TEveVectorT;
+template <typename TT> class TEveVector4T;
+template <typename TT> class TEveVector2T;
+template <typename TT> class TEvePathMarkT;
+template <typename TT> class TEveRecTrackT;
+
+[ libEve1.dll ]
+# List of selected classes
+class TEve3DProjection
+class TEveBrowser
+class TEveChunkManager
+class TEveChunkManager::iterator
+class TEveCluster
+class TEveCompositeFrame
+class TEveCompositeFrameInMainFrame
+class TEveCompositeFrameInPack
+class TEveCompositeFrameInTab
+class TEveCompound
+class TEveCompoundProjected
+class TEveContextMenu
+class TEveElement
+class TEveElement::TEveListTreeInfo
+class TEveElementEditor
+class TEveElementList
+class TEveElementListProjected
+class TEveEventManager
+class TEveException
+class TEveGDoubleValuator
+class TEveGListTreeEditorFrame
+class TEveGTriVecValuator
+class TEveGValuator
+class TEveGValuatorBase
+class TEveGedEditor
+class TEveGedNameFrame
+class TEveGedNameTextButton
+class TEveGeoManagerHolder
+class TEveHit
+class TEveListTreeItem
+class TEveMCRecCrossRef
+class TEveMCTrack
+class TEveMacro
+class TEveManager
+class TEveManager::TExceptionHandler
+class TEveManager::TRedrawDisabler
+class TEvePad
+class TEvePadHolder
+class TEveParamList
+class TEveParamList::BoolConfig_t
+class TEveParamList::FloatConfig_t
+class TEveParamList::IntConfig_t
+class TEveParamListEditor
+class TEvePathMarkT<Double_t>
+class TEvePathMarkT<Float_t>
+class TEvePathMarkT<double>
+class TEvePathMarkT<float>
+class TEvePointSelector
+class TEvePointSelectorConsumer
+class TEveProjectable
+class TEveProjected
+class TEveProjection
+class TEveProjection::PreScaleEntry_t
+class TEveProjectionAxes
+class TEveProjectionAxesEditor
+class TEveProjectionAxesGL
+class TEveProjectionManager
+class TEveProjectionManagerEditor
+class TEveRPhiProjection
+class TEveRecCascade
+class TEveRecKink
+class TEveRecTrackT<Double_t>
+class TEveRecTrackT<Float_t>
+class TEveRecTrackT<double>
+class TEveRecTrackT<float>
+class TEveRecV0
+class TEveRefBackPtr
+class TEveRefCnt
+class TEveRhoZProjection
+class TEveScene
+class TEveSceneInfo
+class TEveSceneList
+class TEveSecondarySelectable
+class TEveSelection
+class TEveSelectorToEventList
+class TEveTrans
+class TEveTransEditor
+class TEveTransSubEditor
+class TEveUtil
+class TEveVSD
+class TEveVector2T<Double_t>
+class TEveVector2T<Float_t>
+class TEveVector2T<double>
+class TEveVector2T<float>
+class TEveVector4T<Double_t>
+class TEveVector4T<Float_t>
+class TEveVector4T<double>
+class TEveVector4T<float>
+class TEveVectorT<Double_t>
+class TEveVectorT<Float_t>
+class TEveVectorT<double>
+class TEveVectorT<float>
+class TEveViewer
+class TEveViewerList
+class TEveViewerListEditor
+class TEveWindow
+class TEveWindowEditor
+class TEveWindowFrame
+class TEveWindowManager
+class TEveWindowPack
+class TEveWindowSlot
+class TEveWindowTab
+class _List_const_iterator<_List_val<_List_simple_types<TEveElement*> > >
+class _List_const_iterator<_List_val<struct std::_List_simple_types<class TEveElement*> > >
+class _List_iterator<_List_val<_List_simple_types<TEveElement*> > >
+class _List_iterator<_List_val<struct std::_List_simple_types<class TEveElement*> > >
+class _Tree_const_iterator<_Tree_val<_Tree_simple_types<TEveElement*> > >
+class _Tree_const_iterator<_Tree_val<struct std::_Tree_simple_types<class TEveElement*> > >
+class _Vector_iterator<_Vector_val<_Simple_types<TEveProjection::PreScaleEntry_t> > >
+class _Vector_iterator<_Vector_val<struct std::_Simple_types<struct TEveProjection::PreScaleEntry_t> > >
+class list<TEveElement*>
+class list<TEveElement*>::const_iterator
+class list<TEveElement*>::iterator
+class list<class TEveElement*,allocator<class TEveElement*> >
+class set<TEveElement*>
+class set<TEveElement*>::iterator
+class set<class TEveElement*,struct std::less<class TEveElement*>,allocator<class TEveElement*> >
+class vector<TEveProjection::PreScaleEntry_t>
+class vector<TEveProjection::PreScaleEntry_t>::iterator
+class vector<struct TEveProjection::PreScaleEntry_t,allocator<struct TEveProjection::PreScaleEntry_t> >
+header TEveProjections.h
+header TEveBrowser.h
+header TEveChunkManager.h
+header TEveVSDStructs.h
+header TEveWindow.h
+header TEveCompound.h
+header TEveElement.h
+header TEveElementEditor.h
+header TEveEventManager.h
+header TEveUtil.h
+header TEveGValuators.h
+header TEveGedEditor.h
+header TEveMacro.h
+header TEveManager.h
+header TEvePad.h
+header TEveParamList.h
+header TEveTreeTools.h
+header TEveProjectionBases.h
+header TEveProjectionAxes.h
+header TEveProjectionAxesEditor.h
+header TEveProjectionAxesGL.h
+header TEveProjectionManager.h
+header TEveProjectionManagerEditor.h
+header TEveScene.h
+header TEveSceneInfo.h
+header TEveSecondarySelectable.h
+header TEveSelection.h
+header TEveTrans.h
+header TEveTransEditor.h
+header TEveVSD.h
+header TEveViewer.h
+header TEveViewerListEditor.h
+header TEveWindowEditor.h
+header TEveWindowManager.h
+# List of selected typedefs and outer classes
+typedef TEveVector
+typedef TEveVectorF
+typedef TEveVectorD
+typedef TEveVector4
+typedef TEveVector4F
+typedef TEveVector4D
+typedef TEveVector2
+typedef TEveVector2F
+typedef TEveVector2D
+typedef TEvePathMark
+typedef TEvePathMarkF
+typedef TEvePathMarkD
+typedef TEveRecTrack
+typedef TEveRecTrackF
+typedef TEveRecTrackD
+# List of selected vars
+var gEve

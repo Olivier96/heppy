@@ -1,0 +1,10 @@
+[ libFitPanel.dll ]
+# List of selected classes
+class TAdvancedGraphicsDialog
+class TFitEditor
+class TFitParametersDialog
+class TTreeInput
+header TAdvancedGraphicsDialog.h
+header TFitEditor.h
+header TFitParametersDialog.h
+header TTreeInput.h

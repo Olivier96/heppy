@@ -1,0 +1,17 @@
+{ decls }
+namespace std {  }
+
+[ libdequeDict.dll ]
+# List of selected classes
+class deque<char*,allocator<char*> >
+class deque<char*>
+class deque<double,allocator<double> >
+class deque<double>
+class deque<float,allocator<float> >
+class deque<float>
+class deque<int,allocator<int> >
+class deque<int>
+class deque<long,allocator<long> >
+class deque<long>
+class deque<void*,allocator<void*> >
+class deque<void*>
