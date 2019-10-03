@@ -1,0 +1,24 @@
+[ libWebGui6.dll ]
+# List of selected classes
+class TPadWebSnapshot
+class TWebArgsMenuItem
+class TWebCanvas
+class TWebCheckedMenuItem
+class TWebGuiFactory
+class TWebMenuArgument
+class TWebMenuItem
+class TWebMenuItems
+class TWebObjectOptions
+class TWebPS
+class TWebPadClick
+class TWebPadPainter
+class TWebPadRange
+class TWebPainting
+class TWebSnapshot
+header TWebSnapshot.h
+header TWebMenuItem.h
+header TWebCanvas.h
+header TWebGuiFactory.h
+header TWebPS.h
+header TWebPadPainter.h
+header TWebPainting.h

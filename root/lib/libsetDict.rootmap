@@ -1,0 +1,19 @@
+{ decls }
+namespace std {  }
+
+[ libsetDict.dll ]
+# List of selected classes
+class set<basic_string<char,struct std::char_traits<char>,allocator<char> >,struct std::less<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<basic_string<char,struct std::char_traits<char>,allocator<char> > > >
+class set<char*,struct std::less<char*>,allocator<char*> >
+class set<char*>
+class set<double,struct std::less<double>,allocator<double> >
+class set<double>
+class set<float,struct std::less<float>,allocator<float> >
+class set<float>
+class set<int,struct std::less<int>,allocator<int> >
+class set<int>
+class set<long,struct std::less<long>,allocator<long> >
+class set<long>
+class set<string>
+class set<void*,struct std::less<void*>,allocator<void*> >
+class set<void*>

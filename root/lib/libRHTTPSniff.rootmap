@@ -1,0 +1,4 @@
+[ libRHTTPSniff.dll ]
+# List of selected classes
+class TRootSnifferFull
+header TRootSnifferFull.h

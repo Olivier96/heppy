@@ -1,0 +1,53 @@
+{ decls }
+namespace std {  }
+
+[ libunordered_mapDict.dll ]
+# List of selected classes
+class unordered_map<basic_string<char,struct std::char_traits<char>,allocator<char> >,double,struct std::hash<basic_string<char,struct std::char_traits<char>,allocator<char> > >,struct std::equal_to<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,double> > >
+class unordered_map<basic_string<char,struct std::char_traits<char>,allocator<char> >,float,struct std::hash<basic_string<char,struct std::char_traits<char>,allocator<char> > >,struct std::equal_to<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,float> > >
+class unordered_map<basic_string<char,struct std::char_traits<char>,allocator<char> >,int,struct std::hash<basic_string<char,struct std::char_traits<char>,allocator<char> > >,struct std::equal_to<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,int> > >
+class unordered_map<basic_string<char,struct std::char_traits<char>,allocator<char> >,long,struct std::hash<basic_string<char,struct std::char_traits<char>,allocator<char> > >,struct std::equal_to<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,long> > >
+class unordered_map<basic_string<char,struct std::char_traits<char>,allocator<char> >,void*,struct std::hash<basic_string<char,struct std::char_traits<char>,allocator<char> > >,struct std::equal_to<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,void*> > >
+class unordered_map<char*,char*,struct std::hash<char*>,struct std::equal_to<char*>,allocator<struct std::pair<char*const,char*> > >
+class unordered_map<char*,char*>
+class unordered_map<char*,double,struct std::hash<char*>,struct std::equal_to<char*>,allocator<struct std::pair<char*const,double> > >
+class unordered_map<char*,double>
+class unordered_map<char*,float,struct std::hash<char*>,struct std::equal_to<char*>,allocator<struct std::pair<char*const,float> > >
+class unordered_map<char*,float>
+class unordered_map<char*,int,struct std::hash<char*>,struct std::equal_to<char*>,allocator<struct std::pair<char*const,int> > >
+class unordered_map<char*,int>
+class unordered_map<char*,long,struct std::hash<char*>,struct std::equal_to<char*>,allocator<struct std::pair<char*const,long> > >
+class unordered_map<char*,long>
+class unordered_map<char*,void*,struct std::hash<char*>,struct std::equal_to<char*>,allocator<struct std::pair<char*const,void*> > >
+class unordered_map<char*,void*>
+class unordered_map<double,char*,struct std::hash<double>,struct std::equal_to<double>,allocator<struct std::pair<double const,char*> > >
+class unordered_map<double,char*>
+class unordered_map<double,double,struct std::hash<double>,struct std::equal_to<double>,allocator<struct std::pair<double const,double> > >
+class unordered_map<double,double>
+class unordered_map<double,float,struct std::hash<double>,struct std::equal_to<double>,allocator<struct std::pair<double const,float> > >
+class unordered_map<double,float>
+class unordered_map<double,int,struct std::hash<double>,struct std::equal_to<double>,allocator<struct std::pair<double const,int> > >
+class unordered_map<double,int>
+class unordered_map<double,long,struct std::hash<double>,struct std::equal_to<double>,allocator<struct std::pair<double const,long> > >
+class unordered_map<double,long>
+class unordered_map<double,void*,struct std::hash<double>,struct std::equal_to<double>,allocator<struct std::pair<double const,void*> > >
+class unordered_map<double,void*>
+class unordered_map<int,int,struct std::hash<int>,struct std::equal_to<int>,allocator<struct std::pair<int const,int> > >
+class unordered_map<int,int>
+class unordered_map<long,char*,struct std::hash<long>,struct std::equal_to<long>,allocator<struct std::pair<long const,char*> > >
+class unordered_map<long,char*>
+class unordered_map<long,double,struct std::hash<long>,struct std::equal_to<long>,allocator<struct std::pair<long const,double> > >
+class unordered_map<long,double>
+class unordered_map<long,float,struct std::hash<long>,struct std::equal_to<long>,allocator<struct std::pair<long const,float> > >
+class unordered_map<long,float>
+class unordered_map<long,int,struct std::hash<long>,struct std::equal_to<long>,allocator<struct std::pair<long const,int> > >
+class unordered_map<long,int>
+class unordered_map<long,long,struct std::hash<long>,struct std::equal_to<long>,allocator<struct std::pair<long const,long> > >
+class unordered_map<long,long>
+class unordered_map<long,void*,struct std::hash<long>,struct std::equal_to<long>,allocator<struct std::pair<long const,void*> > >
+class unordered_map<long,void*>
+class unordered_map<string,double>
+class unordered_map<string,float>
+class unordered_map<string,int>
+class unordered_map<string,long>
+class unordered_map<string,void*>

@@ -1,0 +1,33 @@
+{ decls }
+namespace std {  }
+
+[ libvectorDict.dll ]
+# List of selected classes
+class vector<Long64_t>
+class vector<ULong64_t>
+class vector<__int64,allocator<__int64> >
+class vector<bool,allocator<bool> >
+class vector<bool>
+class vector<char const*,allocator<char const*> >
+class vector<char*,allocator<char*> >
+class vector<char*>
+class vector<char,allocator<char> >
+class vector<char>
+class vector<const char*>
+class vector<double,allocator<double> >
+class vector<double>
+class vector<float,allocator<float> >
+class vector<float>
+class vector<long,allocator<long> >
+class vector<long>
+class vector<short,allocator<short> >
+class vector<short>
+class vector<unsigned __int64,allocator<unsigned __int64> >
+class vector<unsigned char,allocator<unsigned char> >
+class vector<unsigned char>
+class vector<unsigned int,allocator<unsigned int> >
+class vector<unsigned int>
+class vector<unsigned long,allocator<unsigned long> >
+class vector<unsigned long>
+class vector<unsigned short,allocator<unsigned short> >
+class vector<unsigned short>

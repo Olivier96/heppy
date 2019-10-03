@@ -1,0 +1,77 @@
+{ decls }
+namespace ROOT { namespace Internal { namespace RDF {  } } }
+namespace ROOT { namespace RDF {  } }
+namespace ROOT { namespace Detail { namespace RDF {  } } }
+namespace ROOT { namespace Internal { namespace RDF { template <typename T> class RColumnValue; } } }
+namespace ROOT { namespace Detail { namespace RDF { class RCustomColumnBase; } } }
+namespace ROOT { namespace RDF { template <typename Proxied, typename DataSource> class RInterface; } }
+namespace ROOT { namespace Detail { namespace RDF { class RFilterBase; } } }
+namespace ROOT { namespace RDF { template <typename T, typename W> class RInterface; } }
+namespace ROOT {  }
+
+[ libROOTDataFrame.dll ]
+# List of selected classes
+class ROOT::Detail::RDF::RCustomColumnBase
+class ROOT::Detail::RDF::RFilterBase
+class ROOT::Detail::RDF::RJittedCustomColumn
+class ROOT::Detail::RDF::RJittedFilter
+class ROOT::Detail::RDF::RLoopManager
+class ROOT::Detail::RDF::RRangeBase
+class ROOT::Internal::RDF::CountHelper
+class ROOT::Internal::RDF::FillHelper
+class ROOT::Internal::RDF::MeanHelper
+class ROOT::Internal::RDF::RBookedCustomColumns
+class ROOT::Internal::RDF::RColumnValue<Long64_t>
+class ROOT::Internal::RDF::RColumnValue<ULong64_t>
+class ROOT::Internal::RDF::RColumnValue<__int64>
+class ROOT::Internal::RDF::RColumnValue<char>
+class ROOT::Internal::RDF::RColumnValue<double>
+class ROOT::Internal::RDF::RColumnValue<float>
+class ROOT::Internal::RDF::RColumnValue<int>
+class ROOT::Internal::RDF::RColumnValue<std::vector<Long64_t> >
+class ROOT::Internal::RDF::RColumnValue<std::vector<ULong64_t> >
+class ROOT::Internal::RDF::RColumnValue<std::vector<char> >
+class ROOT::Internal::RDF::RColumnValue<std::vector<double> >
+class ROOT::Internal::RDF::RColumnValue<std::vector<float> >
+class ROOT::Internal::RDF::RColumnValue<std::vector<int> >
+class ROOT::Internal::RDF::RColumnValue<std::vector<unsigned char> >
+class ROOT::Internal::RDF::RColumnValue<std::vector<unsigned int> >
+class ROOT::Internal::RDF::RColumnValue<unsigned __int64>
+class ROOT::Internal::RDF::RColumnValue<unsigned char>
+class ROOT::Internal::RDF::RColumnValue<unsigned int>
+class ROOT::Internal::RDF::RColumnValue<vector<Long64_t> >
+class ROOT::Internal::RDF::RColumnValue<vector<ULong64_t> >
+class ROOT::Internal::RDF::RColumnValue<vector<__int64,allocator<__int64> > >
+class ROOT::Internal::RDF::RColumnValue<vector<char,allocator<char> > >
+class ROOT::Internal::RDF::RColumnValue<vector<char> >
+class ROOT::Internal::RDF::RColumnValue<vector<double,allocator<double> > >
+class ROOT::Internal::RDF::RColumnValue<vector<double> >
+class ROOT::Internal::RDF::RColumnValue<vector<float,allocator<float> > >
+class ROOT::Internal::RDF::RColumnValue<vector<float> >
+class ROOT::Internal::RDF::RColumnValue<vector<int,allocator<int> > >
+class ROOT::Internal::RDF::RColumnValue<vector<int> >
+class ROOT::Internal::RDF::RColumnValue<vector<unsigned __int64,allocator<unsigned __int64> > >
+class ROOT::Internal::RDF::RColumnValue<vector<unsigned char,allocator<unsigned char> > >
+class ROOT::Internal::RDF::RColumnValue<vector<unsigned char> >
+class ROOT::Internal::RDF::RColumnValue<vector<unsigned int,allocator<unsigned int> > >
+class ROOT::Internal::RDF::RColumnValue<vector<unsigned int> >
+class ROOT::Internal::RDF::RIgnoreErrorLevelRAII
+class ROOT::RDF::RCsvDS
+class ROOT::RDF::RInterface<ROOT::Detail::RDF::RCustomColumnBase,void>
+class ROOT::RDF::RInterface<ROOT::Detail::RDF::RCustomColumnBase>
+class ROOT::RDF::RInterface<ROOT::Detail::RDF::RFilterBase,void>
+class ROOT::RDF::RInterface<ROOT::Detail::RDF::RFilterBase>
+class ROOT::RDF::RInterface<class ROOT::Detail::RDF::RCustomColumnBase,void>
+class ROOT::RDF::RInterface<class ROOT::Detail::RDF::RFilterBase,void>
+class ROOT::RDF::RRootDS
+class ROOT::RDF::RTrivialDS
+class ROOT::RDF::TH1DModel
+class ROOT::RDF::TH2DModel
+class ROOT::RDF::TH3DModel
+class ROOT::RDF::TProfile1DModel
+class ROOT::RDF::TProfile2DModel
+class ROOT::RDataFrame
+# List of selected namespaces
+namespace ROOT::RDF
+namespace ROOT::Detail::RDF
+namespace ROOT::Internal::RDF

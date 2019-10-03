@@ -1,0 +1,6 @@
+[ libWin32gdk.dll ]
+# List of selected classes
+class TGWin32
+class TGWin32GLManager
+header TGWin32.h
+header TGWin32GL.h

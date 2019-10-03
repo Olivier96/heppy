@@ -1,0 +1,9 @@
+{ decls }
+namespace ROOT { namespace Experimental {  } }
+
+[ libROOTWebDisplay.dll ]
+# List of selected classes
+class ROOT::Experimental::RWebDisplayArgs
+class ROOT::Experimental::RWebDisplayHandle
+class ROOT::Experimental::RWebWindow
+class ROOT::Experimental::RWebWindowsManager

@@ -1,0 +1,19 @@
+{ decls }
+namespace std {  }
+
+[ libunordered_setDict.dll ]
+# List of selected classes
+class unordered_set<basic_string<char,struct std::char_traits<char>,allocator<char> >,struct std::hash<basic_string<char,struct std::char_traits<char>,allocator<char> > >,struct std::equal_to<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<basic_string<char,struct std::char_traits<char>,allocator<char> > > >
+class unordered_set<char*,struct std::hash<char*>,struct std::equal_to<char*>,allocator<char*> >
+class unordered_set<char*>
+class unordered_set<double,struct std::hash<double>,struct std::equal_to<double>,allocator<double> >
+class unordered_set<double>
+class unordered_set<float,struct std::hash<float>,struct std::equal_to<float>,allocator<float> >
+class unordered_set<float>
+class unordered_set<int,struct std::hash<int>,struct std::equal_to<int>,allocator<int> >
+class unordered_set<int>
+class unordered_set<long,struct std::hash<long>,struct std::equal_to<long>,allocator<long> >
+class unordered_set<long>
+class unordered_set<string>
+class unordered_set<void*,struct std::hash<void*>,struct std::equal_to<void*>,allocator<void*> >
+class unordered_set<void*>

@@ -1,0 +1,34 @@
+{ decls }
+namespace ROOT {  }
+
+[ libThread.dll ]
+# List of selected classes
+class ROOT::TSpinMutex
+class TAtomicCount
+class TCondition
+class TConditionImp
+class TMutex
+class TMutexImp
+class TRWLock
+class TSemaphore
+class TThread
+class TThreadFactory
+class TThreadImp
+class TWin32Condition
+class TWin32Mutex
+class TWin32Thread
+class TWin32ThreadFactory
+header TWin32AtomicCount.h
+header TCondition.h
+header TConditionImp.h
+header TMutex.h
+header TMutexImp.h
+header TRWLock.h
+header TSemaphore.h
+header TThread.h
+header TThreadFactory.h
+header TThreadImp.h
+header TWin32Condition.h
+header TWin32Mutex.h
+header TWin32Thread.h
+header TWin32ThreadFactory.h

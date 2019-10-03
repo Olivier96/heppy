@@ -1,0 +1,19 @@
+{ decls }
+namespace std {  }
+
+[ libunordered_multisetDict.dll ]
+# List of selected classes
+class unordered_multiset<basic_string<char,struct std::char_traits<char>,allocator<char> >,struct std::hash<basic_string<char,struct std::char_traits<char>,allocator<char> > >,struct std::equal_to<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<basic_string<char,struct std::char_traits<char>,allocator<char> > > >
+class unordered_multiset<char*,struct std::hash<char*>,struct std::equal_to<char*>,allocator<char*> >
+class unordered_multiset<char*>
+class unordered_multiset<double,struct std::hash<double>,struct std::equal_to<double>,allocator<double> >
+class unordered_multiset<double>
+class unordered_multiset<float,struct std::hash<float>,struct std::equal_to<float>,allocator<float> >
+class unordered_multiset<float>
+class unordered_multiset<int,struct std::hash<int>,struct std::equal_to<int>,allocator<int> >
+class unordered_multiset<int>
+class unordered_multiset<long,struct std::hash<long>,struct std::equal_to<long>,allocator<long> >
+class unordered_multiset<long>
+class unordered_multiset<string>
+class unordered_multiset<void*,struct std::hash<void*>,struct std::equal_to<void*>,allocator<void*> >
+class unordered_multiset<void*>
