@@ -1,0 +1,29 @@
+{ decls }
+namespace std {  }
+
+[ libmapDict.dll ]
+# List of selected classes
+class map<basic_string<char,struct std::char_traits<char>,allocator<char> >,basic_string<char,struct std::char_traits<char>,allocator<char> >,struct std::less<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,basic_string<char,struct std::char_traits<char>,allocator<char> > > > >
+class map<basic_string<char,struct std::char_traits<char>,allocator<char> >,double,struct std::less<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,double> > >
+class map<basic_string<char,struct std::char_traits<char>,allocator<char> >,float,struct std::less<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,float> > >
+class map<basic_string<char,struct std::char_traits<char>,allocator<char> >,int,struct std::less<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,int> > >
+class map<basic_string<char,struct std::char_traits<char>,allocator<char> >,long,struct std::less<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,long> > >
+class map<basic_string<char,struct std::char_traits<char>,allocator<char> >,void*,struct std::less<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,void*> > >
+class map<char*,char*,struct std::less<char*>,allocator<struct std::pair<char*const,char*> > >
+class map<char*,char*>
+class map<char*,double,struct std::less<char*>,allocator<struct std::pair<char*const,double> > >
+class map<char*,double>
+class map<char*,float,struct std::less<char*>,allocator<struct std::pair<char*const,float> > >
+class map<char*,float>
+class map<char*,int,struct std::less<char*>,allocator<struct std::pair<char*const,int> > >
+class map<char*,int>
+class map<char*,long,struct std::less<char*>,allocator<struct std::pair<char*const,long> > >
+class map<char*,long>
+class map<char*,void*,struct std::less<char*>,allocator<struct std::pair<char*const,void*> > >
+class map<char*,void*>
+class map<string,double>
+class map<string,float>
+class map<string,int>
+class map<string,long>
+class map<string,string>
+class map<string,void*>

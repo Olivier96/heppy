@@ -1,0 +1,23 @@
+{ decls }
+namespace std {  }
+
+[ libmultimapDict.dll ]
+# List of selected classes
+class multimap<basic_string<char,struct std::char_traits<char>,allocator<char> >,double,struct std::less<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,double> > >
+class multimap<basic_string<char,struct std::char_traits<char>,allocator<char> >,int,struct std::less<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,int> > >
+class multimap<basic_string<char,struct std::char_traits<char>,allocator<char> >,long,struct std::less<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,long> > >
+class multimap<basic_string<char,struct std::char_traits<char>,allocator<char> >,void*,struct std::less<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<struct std::pair<const basic_string<char,struct std::char_traits<char>,allocator<char> >,void*> > >
+class multimap<char*,char*,struct std::less<char*>,allocator<struct std::pair<char*const,char*> > >
+class multimap<char*,char*>
+class multimap<char*,double,struct std::less<char*>,allocator<struct std::pair<char*const,double> > >
+class multimap<char*,double>
+class multimap<char*,int,struct std::less<char*>,allocator<struct std::pair<char*const,int> > >
+class multimap<char*,int>
+class multimap<char*,long,struct std::less<char*>,allocator<struct std::pair<char*const,long> > >
+class multimap<char*,long>
+class multimap<char*,void*,struct std::less<char*>,allocator<struct std::pair<char*const,void*> > >
+class multimap<char*,void*>
+class multimap<string,double>
+class multimap<string,int>
+class multimap<string,long>
+class multimap<string,void*>

@@ -1,0 +1,19 @@
+{ decls }
+namespace std {  }
+
+[ libmultisetDict.dll ]
+# List of selected classes
+class multiset<basic_string<char,struct std::char_traits<char>,allocator<char> >,struct std::less<basic_string<char,struct std::char_traits<char>,allocator<char> > >,allocator<basic_string<char,struct std::char_traits<char>,allocator<char> > > >
+class multiset<char*,struct std::less<char*>,allocator<char*> >
+class multiset<char*>
+class multiset<double,struct std::less<double>,allocator<double> >
+class multiset<double>
+class multiset<float,struct std::less<float>,allocator<float> >
+class multiset<float>
+class multiset<int,struct std::less<int>,allocator<int> >
+class multiset<int>
+class multiset<long,struct std::less<long>,allocator<long> >
+class multiset<long>
+class multiset<string>
+class multiset<void*,struct std::less<void*>,allocator<void*> >
+class multiset<void*>

@@ -1,0 +1,19 @@
+{ decls }
+namespace std {  }
+
+[ liblistDict.dll ]
+# List of selected classes
+class list<basic_string<char,struct std::char_traits<char>,allocator<char> >,allocator<basic_string<char,struct std::char_traits<char>,allocator<char> > > >
+class list<char*,allocator<char*> >
+class list<char*>
+class list<double,allocator<double> >
+class list<double>
+class list<float,allocator<float> >
+class list<float>
+class list<int,allocator<int> >
+class list<int>
+class list<long,allocator<long> >
+class list<long>
+class list<string>
+class list<void*,allocator<void*> >
+class list<void*>

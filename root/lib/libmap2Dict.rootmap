@@ -1,0 +1,31 @@
+{ decls }
+namespace std {  }
+
+[ libmap2Dict.dll ]
+# List of selected classes
+class map<double,char*,struct std::less<double>,allocator<struct std::pair<double const,char*> > >
+class map<double,char*>
+class map<double,double,struct std::less<double>,allocator<struct std::pair<double const,double> > >
+class map<double,double>
+class map<double,float,struct std::less<double>,allocator<struct std::pair<double const,float> > >
+class map<double,float>
+class map<double,int,struct std::less<double>,allocator<struct std::pair<double const,int> > >
+class map<double,int>
+class map<double,long,struct std::less<double>,allocator<struct std::pair<double const,long> > >
+class map<double,long>
+class map<double,void*,struct std::less<double>,allocator<struct std::pair<double const,void*> > >
+class map<double,void*>
+class map<int,int,struct std::less<int>,allocator<struct std::pair<int const,int> > >
+class map<int,int>
+class map<long,char*,struct std::less<long>,allocator<struct std::pair<long const,char*> > >
+class map<long,char*>
+class map<long,double,struct std::less<long>,allocator<struct std::pair<long const,double> > >
+class map<long,double>
+class map<long,float,struct std::less<long>,allocator<struct std::pair<long const,float> > >
+class map<long,float>
+class map<long,int,struct std::less<long>,allocator<struct std::pair<long const,int> > >
+class map<long,int>
+class map<long,long,struct std::less<long>,allocator<struct std::pair<long const,long> > >
+class map<long,long>
+class map<long,void*,struct std::less<long>,allocator<struct std::pair<long const,void*> > >
+class map<long,void*>
