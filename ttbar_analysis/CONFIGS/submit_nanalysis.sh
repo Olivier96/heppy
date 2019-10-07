@@ -23,7 +23,7 @@ cards_len=${#cards[@]}
 Nstart=44
 Nend=$(( ${Nstart} + 1 ))
 
-PATH_TO_OUT=/storage_mnt/storage/user/mmancini/testFCC/Nicolo/heppy/ttbar_analysis/ANALYSIS/OUT/
+PATH_TO_OUT=/storage_mnt/storage/user/odupon/heppy/ttbar_analysis/ANALYSIS/OUT/
 #output_folder=
 
 #for (( j=40; j<Njobs; j++)); do
@@ -54,7 +54,7 @@ for ((i = Nstart; i<Nend; i++)); do
                     #python sampler_creator.py -o ${c}_${m}_${s}_${i}_sampler.py -n ${c}_${m}_${s}_${i}${extension} --output-directory=m${m}_s${s}/ --ntuple-dir=m${m}_s${s}/
                     #python analysis_creator.py -s ${c}_${m}_${s}_${i}_sampler.py -N ${Nnodes} -n ${Ncores} -o ${c}_${m}_${s}_${i}${outputfile_ext} --sample-dir=m${m}_s${s}/ --output-subdir=m${m}_s${s}/
                     #echo heppy_batch2.py -o ${PATH_TO_OUT}${c}_m${m/./}_s${s}_${i}/  m${m}_s${s}/${c}_${m}_${s}_${i}${analysisfile_ext} -b "qsub ${PATH_TO_OUT}${c}_m${m/./}_s${s}_${i}/tt_semilepton_ILD_Chunk0/batchScript.sh -lnodes=${Nnodes}:ppn=${Ncores} -N ${c}_${m/./}_${s}_${i}"
-                    echo heppy_batch2.py -o ${PATH_TO_OUT}${c}_m${m/./}_s${s}_${i}/  m${m}_s${s}/${c}_${m}_${s}_${i}${analysisfile_ext} -b "qsub batchScript.sh -lnodes=${Nnodes}:ppn=${Ncores} -N ${c}_${m/./}_${s}_${i}"
+                    python heppy_batch2.py -o ${PATH_TO_OUT}${c}_m${m/./}_s${s}_${i}/  m${m}_s${s}/${c}_${m}_${s}_${i}${analysisfile_ext} -b "qsub batchScript.sh -lnodes=${Nnodes}:ppn=${Ncores} -N ${c}_${m/./}_${s}_${i}"
                 done
             else
                 c=tt
@@ -63,7 +63,7 @@ for ((i = Nstart; i<Nend; i++)); do
                 #python sampler_creator.py -o ${c}_${m}_${s}_${i}_sampler.py -n ${c}_${m}_${s}_${i}${extension} --output-directory=m${m}_s${s}/ --ntuple-dir=m${m}_s${s}/
                 #python analysis_creator.py -s ${c}_${m}_${s}_${i}_sampler.py -N ${Nnodes} -n ${Ncores} -o ${c}_${m}_${s}_${i}${outputfile_ext} --sample-dir=m${m}_s${s}/ --output-subdir=m${m}_s${s}/
                 #echo heppy_batch2.py -o ${PATH_TO_OUT}${c}_m${m/./}_s${s}_${i}/  m${m}_s${s}/${c}_${m}_${s}_${i}${analysisfile_ext} -b "qsub ${PATH_TO_OUT}${c}_m${m/./}_s${s}_${i}/tt_semilepton_ILD_Chunk0/batchScript.sh -lnodes=${Nnodes}:ppn=${Ncores} -N ${c}_${m/./}_${s}_${i}" 
-                echo heppy_batch2.py -o ${PATH_TO_OUT}${c}_m${m/./}_s${s}_${i}/  m${m}_s${s}/${c}_${m}_${s}_${i}${analysisfile_ext} -b "qsub batchScript.sh -lnodes=${Nnodes}:ppn=${Ncores} -N ${c}_${m/./}_${s}_${i}"
+                python heppy_batch2.py -o ${PATH_TO_OUT}${c}_m${m/./}_s${s}_${i}/  m${m}_s${s}/${c}_${m}_${s}_${i}${analysisfile_ext} -b "qsub batchScript.sh -lnodes=${Nnodes}:ppn=${Ncores} -N ${c}_${m/./}_${s}_${i}"
                 ii=$((${ii} + 1))
             fi
         done
