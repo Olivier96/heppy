@@ -10,8 +10,8 @@
 echo ${GENERATOR}
 echo ${subdir}
 
-NTUPLE_DIR=~/testFCC/Nicolo/heppy/ttbar_analysis/ANALYSIS/PYTHIA/ntuples
-NTUPLE_GEN_DIR=~/testFCC/Nicolo/heppy/ttbar_analysis/ANALYSIS/PYTHIA/ntuples_generator_copies
+NTUPLE_DIR=heppy/ttbar_analysis/ANALYSIS/PYTHIA/ntuples
+NTUPLE_GEN_DIR=heppy/ttbar_analysis/ANALYSIS/PYTHIA/ntuples_generator_copies
 #GENERATOR=ee_tt_0.txt
 #subdir=ee/
 ROOTNAME=${GENERATOR}
