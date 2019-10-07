@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SCRIPTS_DIR=~/testFCC/Nicolo/heppy/ttbar_analysis/ANALYSIS/PYTHIA/scripts
+SCRIPTS_DIR=heppy/ttbar_analysis/ANALYSIS/PYTHIA/scripts
 
 Nnodes=1
 Ncores=2
