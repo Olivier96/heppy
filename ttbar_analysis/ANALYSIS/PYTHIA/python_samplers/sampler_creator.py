@@ -39,7 +39,7 @@ file_sampler.write("import os\n")
 file_sampler.write("\n")
 file_sampler.write("\n")
 file_sampler.write("name_outdir = '{analysis_dir}'\n".format(analysis_dir=options.analysis_dir))
-file_sampler.write("path_to_ntuples = '/storage_mnt/storage/user/mmancini/testFCC/Nicolo/heppy/ttbar_analysis/ANALYSIS/PYTHIA/ntuples/{ntuple_dir}'\n".format(ntuple_dir=options.ntuple_dir))
+file_sampler.write("path_to_ntuples = '/storage_mnt/storage/user/odupon/heppy/ttbar_analysis/ANALYSIS/PYTHIA/ntuples/{ntuple_dir}'\n".format(ntuple_dir=options.ntuple_dir))
 for i,ntup in enumerate(options.ntuple):
     file_sampler.write("ntuple{i} = '{ntuple}'\n".format(i=i,ntuple=ntup))
     file_sampler.write("\n")
